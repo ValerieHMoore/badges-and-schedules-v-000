@@ -14,13 +14,5 @@ def assign_rooms(attendees)
   rooms = [1,2,3,4,5,6,7]
   new_array = []
   attendees.each do |name|
-    new_array << "Hello, #{name}! You'll be assigned to room #{rooms.each_with_index{|room,index|} !"
+    new_array << "Hello, #{name}! You'll be assigned to room #rooms.each_with_index{|room,index|}"!"
 end
-
-hash = Hash.new
-%w(cat dog wombat).each_with_index { |item, index|
-  hash[item] = index
-}
-hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
-
-%w(cat dog wombat).each_with_index { |item, index|
